@@ -33,6 +33,11 @@ header{
     overflow: hidden;
     cursor: pointer;
 }
+
+.navbar-pos :hover{
+	transition: all 0.5s;
+	background-color: blue;
+}
 /*
 .logo{
 	float: left;
@@ -54,6 +59,7 @@ header{
 .name-img{
 	height: auto;
 	width: 100%;
+	margin-bottom: 40px;
 }
 
 .aboutme{
