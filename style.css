@@ -1,0 +1,26 @@
+.body{
+	text-align: center;
+	flex: wrap;
+}
+
+.navbar{
+	list-style-type: none;
+	margin-bottom: 15px;
+	margin-top: -15px;
+	margin-right: -10px;
+}
+
+.navbar-pos{
+	float: right;
+	background-color: red;
+	padding: 15px;
+}
+
+#nav-about{
+	
+}
+
+.main-body{
+	clear: all;
+}
+
