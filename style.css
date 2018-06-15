@@ -52,12 +52,11 @@ header{
 }
 
 .name-img{
-	height: 600px;
-	padding: 0px 0px 120px 0px;
+	height: auto;
+	width: 100%;
 }
 
 .aboutme{
-	margin-top: -100px;
 	padding-top: 10px;
 	margin-bottom: 40px;
 	padding-bottom: 40px;
