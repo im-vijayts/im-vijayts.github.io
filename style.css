@@ -1,26 +1,117 @@
-.body{
+*{
 	text-align: center;
 	flex: wrap;
+	font-family: "Raleway", Monotype;
+}
+
+header{
+	background-color: rgb(33, 33, 33);
 }
 
 .navbar{
 	list-style-type: none;
-	margin-bottom: 15px;
-	margin-top: -15px;
-	margin-right: -10px;
+	display: inline-block;
+	padding: -100px;
 }
 
 .navbar-pos{
-	float: right;
-	background-color: red;
-	padding: 15px;
+	padding: 0px 10px 0px 10px;
 }
 
-#nav-about{
-	
+.button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 11px;
+    font-family: "Raleway", Monotype;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
 }
-
+/*
+.logo{
+	float: left;
+	width: 150px;	
+}
+*/
 .main-body{
 	clear: all;
 }
 
+.name{
+	padding: 30px 0px;
+	background-color: rgb(11.8, 11, 12.5);
+	color: white;
+	padding-bottom: 50px;
+	font-size: 30px;
+}
+
+.name-img{
+	height: 600px;
+	padding: 0px 0px 120px 0px;
+}
+
+.aboutme{
+	margin-top: -100px;
+	padding-top: 10px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	background-color: rgb(33, 33, 33);
+	color: white;
+}
+
+#about{
+	padding: 0px 15px 0px 15px; 
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#vijayimg{
+	width: 250px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+.skillsclass{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	background-color: rgb(33, 33, 33);
+	color: white;
+}
+
+#skills{
+	font-size: 30px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+li{
+	list-style-type: none;
+}
+
+.projectsclass{
+	padding-top: 40px;
+}
+
+.projectsclass{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	background-color: rgb(33, 33, 33);
+	color: white;
+}
+
+#projects{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.projli{
+	font-size: 20px;
+}

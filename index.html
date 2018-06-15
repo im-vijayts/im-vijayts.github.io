@@ -3,53 +3,84 @@
 <head>
 	<title>Vijay T S</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 </head>
 <body>
 
-	<div class="body">
+<div class="body">
+<!-- Nav bar -->
+	<header>
+		<nav class="navbar">
 
-		<div class="header">
+			<!-- <img src="image.jpg" class="logo"> -->
 
-			<ul class="navbar">
-			<li class="navbar-pos" id="nav-projects"><a href="#projects">PROJECTS</a>
-			<li class="navbar-pos" id="nav-skills"><a href="#skills">SKILLS</a></li>
-			<li class="navbar-pos" id="nav-about"><a href="#about">ABOUT ME</a></li>
-		    </ul>
+				<div class="navbar">
 
-		</div>
+					<ul class="navbar">
+					<li class="navbar navbar-pos" id="nav-about"><a href="#about"><button class="button">ABOUT ME</button></a></li>
+					<li class="navbar navbar-pos" id="nav-skills"><a href="#skills"><button class="button">SKILLS</button></a></li>
+					<li class="navbar navbar-pos" id="nav-projects"><a href="#projects"><button class="button">PROJECTS</button></a></li>
+				    </ul>
 
+				</div>
+		</nav>
+	</header>
+	
 		<div class="main-body">
 
-			<h1>VIJAY T S</h1>
-			<h1>FRONT END DEVELOPER</h1>
+			<div class="name">
+				<h1>VIJAY T S</h1>
+				<h2>FRONT END DEVELOPER</h2>
+			</div>
 
-			<h1 id="about">ABOUT ME</h1>
-			<p>I am a self taught front end developer. I am always looking for oppurtunities to showcase my talents which means I'm also looking for challenges constantly.</p>
-			<p>On this websites you'll find all my projects that I've done in various projects and I will update you on the projects that I'm working on right now as well!</p>
-			<p>If you don't see me coding, you'll find me chasing some other interest of mine such as photography, music production, videography or writing!</p>
-			<p>Oh, and I also try to work out as consistently as possible.</p>
-			<p>Check out the projects to find some fun stuff.</p>
+			<div class="bg-img">
+				<img src="universe-bg-1.jpg" class="bg-img name-img">				
+			</div>
 
-			<h1 id="skills">SKILLS</h1>
+			<div class="aboutme">
 
-			<h3>I have knowledge in the following languages</h3>
+				<h1 id="about">ABOUT ME</h1>
 
-			<ul>
-				<li>Python</li>
-				<li>HTML 5</li>
-				<li>CSS 3</li>
-				<li>JavaScript 5</li>
-				<li>C program</li>
-				<li>C++ program</li>
-			</ul>
+				<img src="vijay.jpg" id="vijayimg">
+
+				<p>I am a self taught front end developer. I am always looking for oppurtunities to showcase my talents which means I'm also looking for challenges constantly.</p>
+				<p>On this websites you'll find all my projects that I've done in various projects and I will update you on the projects that I'm working on right now as well!</p>
+				<p>If you don't see me coding, you'll find me chasing some other interest of mine such as photography, music production, videography or writing!</p>
+				<p>Oh, and I also try to work out as consistently as possible.</p>
+				<p>Check out the projects to find some fun stuff.</p>
 			
-			<h1 id="projects">PROJECTS</h1>
+			</div>
 
-			<p>Here are a list of my projects. If you want to know about it, just click on them.</p>
+			<div class="skillsclass">
+				<h1 id="skills">SKILLS</h1>
+
+				<p>I have knowledge in the following languages</p>
+
+				<ul>
+					<li>Python</li>
+					<li>HTML 5</li>
+					<li>CSS 3</li>
+					<li>JavaScript 5</li>
+					<li>C program</li>
+					<li>C++ program</li>
+				</ul>
+			</div>
+
+			<div class="projectsclass">
+
+				<h1 id="projects">PROJECTS</h1>
+
+				<p>Here are a list of my projects. If you want to know about it, just click on them. <em>(Currently they aren't yet fucnctioning!)</em></p>
+
+				<ul>
+					<li class="projli"><a href="#">SEO tool (Python)</li>
+				</ul>
+
+			</div>
 
 		</div>
 
-	</div>
+</div>
 
 </body>
 </html>
