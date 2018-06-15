@@ -36,7 +36,7 @@ header{
 
 .navbar-pos :hover{
 	transition: all 0.5s;
-	background-color: blue;
+	background-color: green;
 }
 /*
 .logo{
