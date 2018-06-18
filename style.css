@@ -18,6 +18,18 @@ header{
 	padding: 0px 10px 0px 10px;
 }
 
+#vijayimg{
+	width: 250px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+#logo{
+	float: left;
+	width: 50px;
+	padding: 15px;
+}
+
 .button {
     position: relative;
     background-color: #4CAF50;
@@ -37,89 +49,6 @@ header{
 .navbar-pos :hover{
 	transition: all 0.5s;
 	background-color: green;
-}
-
-.main-body{
-	clear: all;
-}
-
-.name{
-	padding: 30px 0px;
-	background-color: rgb(11.8, 11, 12.5);
-	color: white;
-	padding-bottom: 50px;
-	font-size: 30px;
-}
-
-.name-img{
-	height: auto;
-	width: 100%;
-	margin-bottom: 40px;
-}
-
-.aboutme{
-	padding-top: 10px;
-	margin-bottom: 40px;
-	padding-bottom: 40px;
-	background-color: rgb(33, 33, 33);
-	color: white;
-}
-
-#about{
-	padding: 0px 15px 0px 15px; 
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-}
-
-#vijayimg{
-	width: 250px;
-	border: 2px solid white;
-	border-radius: 50%;
-}
-
-#logo{
-	float: left;
-	width: 50px;
-	padding: 15px;
-}
-
-.skillsclass{
-	padding-top: 10px;
-	padding-bottom: 20px;
-	margin-bottom: 40px;
-	background-color: rgb(33, 33, 33);
-	color: white;
-}
-
-#skills{
-	font-size: 30px;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-}
-
-li{
-	list-style-type: none;
-}
-
-.projectsclass{
-	padding-top: 40px;
-}
-
-.projectsclass{
-	padding-top: 10px;
-	padding-bottom: 20px;
-	margin-bottom: 40px;
-	background-color: rgb(33, 33, 33);
-	color: white;
-}
-
-#projects{
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-}
-
-.projli{
-	font-size: 20px;
 }
 
 footer{

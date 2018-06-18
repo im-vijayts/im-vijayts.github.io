@@ -1,0 +1,24 @@
+body{
+	background: linear-gradient(to left, yellow, red);
+}
+
+.main-body{
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
+
+.color1{
+	margin: 80px;
+}
+
+.color2{
+	margin: 80px;
+}
+
+#h1id{
+	margin-top: 100px;
+}
+
+#disp-color{
+	margin-bottom: 200px;
+}
