@@ -1,5 +1,6 @@
 body{
 	background: linear-gradient(to left, yellow, red);
+	flex: wrap;
 }
 
 .main-body{
