@@ -68,3 +68,13 @@ li{
 .projli{
 	font-size: 20px;
 }
+
+.projListLink{
+	text-decoration: none;
+}
+
+.projListLink :hover {
+	color: green;
+}
+
+
