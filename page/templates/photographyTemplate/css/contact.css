@@ -1,0 +1,33 @@
+*{
+	flex: wrap;
+}
+
+body{
+	background-image: url(../img/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact{
+	text-align: right;
+	padding: 30px;
+	padding-top: 10%;
+}
+
+#contactMe{
+	font-size: 60px;
+}
+
+#contactName{
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.after{
+	height: auto;
+}
+
+.contact{
+	padding: 100px 70px;
+	text-align: right;
+}

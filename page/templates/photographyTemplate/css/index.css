@@ -1,0 +1,58 @@
+*{
+	flex: wrap;
+	margin: 0;
+	height: 100%;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-family: Raleway, sans-serif;
+}
+
+#pimg1{
+	background: url(../img/woman.jpg) no-repeat fixed 100%;
+	background-size: cover;
+}
+
+#ptext{
+	text-align: left;
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.after{
+	height: auto;
+}
+
+.nav{
+	border-bottom: 2px solid blue;
+}
+
+.nav li a{
+	font-size: 50px;
+	padding: 0px 40px;
+}
+
+.nav li :hover{
+	background-color: grey;
+}
+
+.about{
+	padding: 70px 30px;
+	text-align: right;
+}
+
+#aboutHeading{
+	font-size: 60px;
+}
+
+#aboutPic{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+#aboutPara{
+	font-size: 35px;
+}
