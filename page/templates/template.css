@@ -1,0 +1,10 @@
+.templateImage{
+	height: auto;
+	width: 60%;
+	padding: 60px 0px;
+}
+
+.templateImage :hover{
+	opacity: 0.6;
+	transition: all 1s;
+}
