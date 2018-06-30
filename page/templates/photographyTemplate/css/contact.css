@@ -23,11 +23,19 @@ body{
 	font-weight: bold;
 }
 
-.after{
-	height: auto;
-}
-
 .contact{
 	padding: 100px 70px;
 	text-align: right;
+}
+
+.socialRedirect{
+	margin: 30px 0px;
+}
+
+.socialLogos{
+	width: 100px;
+}
+
+#links li{
+	list-style-type: none;
 }
