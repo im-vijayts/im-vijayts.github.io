@@ -1,0 +1,49 @@
+.jumbotron{
+    margin-bottom: -10px;
+    /* background-color: white; */
+}
+
+.top{
+    text-align: center;
+}
+
+#header-text{
+    padding-bottom: 10px;
+}
+
+.nav{
+    padding-bottom: 10px;
+}
+
+.oner{
+    position: relative;
+    padding: 20px 0px;
+}
+
+.oner-text{
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 25%;
+}
+
+.twoer{
+    padding: 30px 0px;
+}
+
+.threer{
+    padding: 30px 0px;
+}
+
+.quest-ans{
+    padding: 20px 10px;
+}
+
+.footer{
+    text-align: center;
+    padding: 30px;
+}
+
+.contact{
+    padding: 20px 0px;
+}
