@@ -4,10 +4,6 @@
     flex: wrap;
 }
 
-.top{
-    text-align: center;
-}
-
 #header-text{
     padding-bottom: 10px;
 }
@@ -19,6 +15,13 @@
 .oner{
     position: relative;
     /* padding: 20px 0px; */
+    height: 100%;
+    width: auto;
+}
+
+.img-fluid{
+    height: auto;
+    width:  100%;
 }
 
 .oner-text{
@@ -48,6 +51,6 @@
 }
 
 .footer{
-    background-color: rgb(153, 158, 168);
+    background-color: rgb(187, 193, 204);
     /* margin-top: -35px; for jumbotron pursposes */
 }
