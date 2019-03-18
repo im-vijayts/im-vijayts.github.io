@@ -1,6 +1,6 @@
 *{
 	flex: wrap;
-	font-family: "Roboto", sans-serif, monotype;
+	font-family: "Helvetica Neue", "Roboto", sans-serif, monotype;
 }
 
 .parallax{
@@ -23,17 +23,15 @@
 
 #parHead{
 	font-size: 10vw;
+	font-family: "IBM Plex Sans";
 }
 
-#parText{
-	font-size: 4vw;
+#about{
+	padding: 100px 0px 50px;
 }
 
 .skills{
-	height: 100%;
-	width: auto;
-	position: relative;
-	padding: 100px 0px 50px;
+	padding: 50px 0px 50px;
 	background-color: rgb(227, 229, 232);
 }
 
