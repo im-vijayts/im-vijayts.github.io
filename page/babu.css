@@ -1,0 +1,70 @@
+*{
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+#header-text{
+    padding-bottom: 10px;
+}
+
+
+/*.oner{
+    position: relative;
+     padding: 20px 0px; 
+    height: 100%;
+    width: auto;
+}
+
+.img-fluid{
+    height: auto;
+    width:  100%;
+}
+
+.oner-text{
+    position: absolute;
+    color: white;
+    left: 20%;
+    top: 20%;
+}*/
+
+.parallax{
+    padding-top: 20px;
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+
+#pText{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: white;
+    /*padding-left: 30px;*/
+}
+
+#parHead{
+    font-size: 8vw;
+}
+
+.twoer{
+    padding: 30px 0px;
+}
+
+.threer{
+    padding: 0px 0px 30px 0px;
+}
+
+/* .quest-ans{
+    padding: 20px 10px;
+} */
+
+.footer{    
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    /* font-size: 20px; */
+}
+
+.footer{
+    background-color: rgb(187, 193, 204);
+    /* margin-top: -35px; for jumbotron pursposes */
+}
