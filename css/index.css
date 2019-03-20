@@ -17,17 +17,23 @@
 #pText{
 	position: absolute;
 	top: 50%;
+	left: 25%;
 	color: white;
-	padding-left: 30px;
+	/*padding-left: 30px;*/
 }
 
 #parHead{
 	font-size: 10vw;
 	font-family: "IBM Plex Sans";
+	/*font-family: "Arepo Italic";*/
 }
 
 #about{
 	padding: 100px 0px 50px;
+}
+
+.contents{
+	padding-left: 25px;
 }
 
 .skills{
