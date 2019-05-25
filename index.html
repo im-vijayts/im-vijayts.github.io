@@ -16,6 +16,8 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<!-- Favicon -->
 		<link rel="icon" href="image/favicon.png" type="image/gif" sizes="16x16">
+		<!-- Animate On Scroll CSS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -27,7 +29,7 @@
 			    <span class="navbar-toggler-icon"></span>
   			</button>
   			<div class="collapse navbar-collapse" id="navbarContent">
-  				<ul class="navbar-nav">
+  				<ul class="navbar-nav" data-aos="fade-right">
   					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
   					<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
   					<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
@@ -46,12 +48,9 @@
 		<div id="about">
 			<div class="container">
 				<h2>ABOUT ME</h2>
-				<div class="contents">
-					<p>I am self taught developer</p>
-					<p>17</p>
-					<p>Passionate</p>
+				<div class="contents" data-aos="fade-down">
+					<p>Python and Web Developer</p>
 					<p>Interested in ML, Web development, Software Development, App Development and Data Science</p>
-					<p>My interests also extend to Graphic Design, Photoraphy, Music Production and Fitness</p>
 					<p>Currently pursuing Web Development</p>
 				</div>
 			</div>
@@ -61,15 +60,15 @@
 		<div class="skills" id="skills">
 			<div class="container">
 				<h2>SKILLS</h2>
-				
+
 				<br>
 
-				<div class="contents">
+				<div class="contents" data-aos="fade-right">
 					Python
 					<div class="progress">
 						  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
-					
+
 					<br>
 
 					HTML
@@ -95,7 +94,7 @@
 
 					Javascript
 					<div class="progress">
-						  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 				</div>
 			</div>
@@ -105,11 +104,52 @@
 		<div class="projects" id="projects">
 			<div class="container">
 				<h2>PROJECTS</h2>
-				<div class="card" style="width: 18rem;">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><a href="https://github.com/im-vijayts/instaDownloader">InstaDownloader</a></li>
-					    <li class="list-group-item"><a href="https://github.com/im-vijayts/Webpage-Frequency-Calci">Webscraper & Analyser</a></li>
-					</ul>
+				<div class="row contents">
+					<div class="col-lg" data-aos="flip-up">
+						<div class="card" style="width: 18rem;">
+						  <div class="card-body">
+								<h5 class="card-title">InstaDownloader</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">Python, Web Scraping</h6>
+								<p class="card-text">A non-API python script that will download images and videos from public instagram profiles.</p>
+						    <a href="https://github.com/im-vijayts/instaDownloader" class="card-link" target="_blank">Go to Project</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg" data-aos="flip-down">
+						<div class="card" style="width: 18rem;">
+						  <div class="card-body">
+						    <h5 class="card-title">SEO tool</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">Python, Web Scraping</h6>
+						    <p class="card-text">This is a simple program that counts the frequency of words in a particular web page. This program utilizes webcrawling working with excel sheets.</p>
+						    <a href="https://github.com/im-vijayts/SEO-tool" class="card-link" target="_blank">Go to Project</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- CONTACT section -->
+		<div class="contact" id="contact">
+			<div class="container">
+				<h3>CONTACT ME</h3>
+				<!-- Wrapper div -->
+				<div class="contents" data-aos="fade-up">
+					<div class="row">
+						<div class="col">
+							E-Mail : vijayts2001@gmail.com
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							LinkedIn: <a href="https://www.linkedin.com/in/vijay-t-s-8a5722161/" target="_blank">Vijay T S</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							GitHub: <a href="https://github.com/im-vijayts" target="_blank">Vijay T S</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -132,11 +172,15 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<!-- BootStrap JS -->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Animate On Scroll JS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- Custom JS -->
+		<script src="js/index.js"></script>
 </body>
 
 </html>

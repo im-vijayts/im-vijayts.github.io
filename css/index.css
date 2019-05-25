@@ -45,8 +45,11 @@
 	padding: 50px 0px 50px;
 }
 
+.contact{
+	padding: 0px 0px 50px;
+}
+
 .footer {
 	background-color: rgb(227, 229, 232);
 	padding: 50px 0px 50px;
-	
 }
