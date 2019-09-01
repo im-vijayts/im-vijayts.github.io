@@ -3,10 +3,20 @@
 	font-family: "Helvetica Neue", "Roboto", sans-serif, monotype;
 }
 
+ html  {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px; 
+}
+
 .parallax{
-	height: 100%;
+	height: 100vh;
 	width: auto;
-	position: relative;
+	background: url("https://images.pexels.com/photos/9346/hands-desk-office-working.jpg?cs=srgb&dl=bokeh-business-computer-9346.jpg&fm=jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 #img{
