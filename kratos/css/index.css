@@ -566,6 +566,9 @@ body{
   .hero_info{
     font-size: 15px;
   }
+  .timer{
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width:480px) { 
@@ -575,6 +578,9 @@ body{
 	}
   .hero_info{
     font-size: 20px;
+  }
+  .timer{
+    font-size: 1.5rem;
   }
 }
 
