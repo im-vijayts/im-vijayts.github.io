@@ -1,10 +1,21 @@
 /*
   Color Scheme : #7579ff, #ab56cf, #551DFC, #3c3c3c
+  New color scheme:   background: linear-gradient(60deg, rgb(145,29,240), rgb(240,29,145),  rgb(145,29,240))
 */
 
 @font-face {
   font-family: "flipside";
   src: url("../fonts/flipside.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "baron neue";
+  src: url("../fonts/Baron Neue.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype")
 }
 
 @font-face {
@@ -65,6 +76,18 @@ body{
 
 /*END BACKGROUND SECTION*/
 
+/*NAVBAR SECTION*/
+
+.bg-blue{
+  background-color: rgb(25, 129, 176, 0.5);
+}
+
+.navbar a{
+  margin: 0px 7vw;
+}
+
+/*END NAVBAR SECTION*/
+
 #kratos_logo{
 	width: 25px;
 }
@@ -117,8 +140,8 @@ body{
 }
 
 .hero_text h1{
-  font-family: "flipside", "bitink", sans-serif;
-  /*font-size: 5.6rem;*/
+  font-family: "baron neue", "flipside", "bitink", sans-serif;
+  font-size: 5.6rem;
   /*background: linear-gradient(60deg, rgb(67, 108, 242), rgb(114, 67, 242), rgb(67, 195, 242));*/
   /*background: linear-gradient(60deg, rgb(68,0,139), rgb(159,69,176),  rgb(159,69,176));*/
   /*background: linear-gradient(60deg, rgb(240,29,229), rgb(240,29,124),  rgb(145,29,240));*/
@@ -131,6 +154,7 @@ body{
 }
 
 .hero_subtitle {
+  font-family: "quicksand", sans-serif;
 	padding-top: 50px;
   color: #3c3c3c;
   line-height: 1;
@@ -140,6 +164,7 @@ body{
 }
 
 .hero_info {
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -190,7 +215,8 @@ body{
   color: white;
 }
 
-.timer{
+.timer h2{
+  font-family: "quicksand", sans-serif;
   text-align: center;
   margin: 50px 0px;
   -webkit-box-pack: center;
@@ -253,6 +279,7 @@ body{
 /*ABOUT SECTION*/
 
 .about{
+  font-family: "quicksand", sans-serif;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -573,7 +600,12 @@ body{
 
 @media (max-width:480px) { 
 /* smartphones, Android phones, landscape iPhone */ 
-	.hero_text h1{
+	body{
+    background: url("../images/phone3.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .hero_text h1{
 		font-size: 3rem;
 	}
   .hero_info{
@@ -590,7 +622,7 @@ body{
 		font-size: 5.6rem;
 	}
   .hero_info{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media (min-width:801px) { 

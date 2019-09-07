@@ -1,14 +1,14 @@
 function o(e){
 	return e>9?""+e:"0"+e
 }
-var s = new Date("September 30, 2019 00:00:00").getTime(),l=setInterval(function(){
+var s = new Date("Sep 30, 2019 00:00:00").getTime(),l=setInterval(function(){
 	var e=(new Date).getTime(),
 	t=s-e,
 	n=o(Math.floor(t/864e5)),
 	a=o(Math.floor(t%864e5/36e5)),
 	u=o(Math.floor(t%36e5/6e4)),
 	r=o(Math.floor(t%6e4/1e3));
-	document.getElementById("countdown").innerHTML='<span class="countdown_item"><span class="countdown_num">'+n+'</span><span class="countdown_unit"> Days </span></span><span class="countdown_item"><span class="countdown_num">'+a+'</span><span class="countdown_unit"> Hours </span></span><span class="countdown_item"><span class="countdown_num">'+u+'</span><span class="countdown_unit"> Minutes </span></span><span class="countdown_item"><span class="countdown_num">'+r+'</span><span class="countdown_unit"> Seconds </span></span>',
+	document.getElementById("countdown").innerHTML='<h2>Only</h2><span class="countdown_item"><span class="countdown_num">'+n+'</span><span class="countdown_unit"> Days </span></span><span class="countdown_item"><span class="countdown_num">'+a+'</span><span class="countdown_unit"> Hours </span></span><span class="countdown_item"><span class="countdown_num">'+u+'</span><span class="countdown_unit"> Minutes </span></span><span class="countdown_item"><span class="countdown_num">'+r+'</span><span class="countdown_unit"> Seconds </span></span><h2>To Go!!</h2>',
 	t<0&&(clearInterval(l),document.getElementById("countdown").innerHTML="Event Started!")},1e3);
 parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRequire,o="function"==typeof require&&require;function u(n,t){if(!r[n]){if(!e[n]){var f="function"==typeof parcelRequire&&parcelRequire;if(!t&&f)return f(n,!0);if(i)return i(n,!0);if(o&&"string"==typeof n)return o(n);var c=new Error("Cannot find module '"+n+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[n][1][r]||r},p.cache={};var l=r[n]=new u.Module(n);e[n][0].call(l.exports,p,l,l.exports,this)}return r[n].exports;function p(e){return u(p.resolve(e))}}u.isParcelRequire=!0,u.Module=function(e){this.id=e,this.bundle=u,this.exports={}},u.modules=e,u.cache=r,u.parent=i,u.register=function(r,n){e[r]=[function(e,r){r.exports=n},{}]};for(var f=0;f<n.length;f++)u(n[f]);if(n.length){var c=u(n[n.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=c:"function"==typeof define&&define.amd?define(function(){return c}):t&&(this[t]=c)}return u}({"tng/":[function(require,module,exports) {
 
