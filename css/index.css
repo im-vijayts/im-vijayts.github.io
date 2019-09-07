@@ -555,7 +555,7 @@ body{
     background: url("../images/galaxy_min.jpg") no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
   }
 }
 
@@ -579,7 +579,7 @@ body{
     background: url("../images/galaxy_min.jpg") no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
   }
 }
 
