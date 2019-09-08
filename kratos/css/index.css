@@ -601,7 +601,7 @@ body{
 @media (max-width:480px) { 
 /* smartphones, Android phones, landscape iPhone */ 
 	body{
-    background: url("../images/phone3.jpeg") no-repeat;
+    /*background: url("../images/phone3.jpeg") no-repeat;*/
     background-size: cover;
     background-attachment: fixed;
   }
