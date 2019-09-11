@@ -317,6 +317,150 @@ body{
 }
 /*END ABOUT SECTION*/
 
+/* Start: Register Section */
+
+#register {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: flex-start;
+      -ms-flex-pack: flex-start;
+          justify-content: flex-start;
+  min-height: 100vh;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register_title {
+  text-align: center;
+  margin: 60px 0 40px;   
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+#register_wrapper {
+  position: relative;
+  /*background: linear-gradient(60deg, rgb(171, 86, 207), rgb(85,29,252) 20%, rgb(117,121,255));*/
+  -webkit-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+          box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+  padding: 42px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+#register_form {
+  color: white;
+  display: inline-block;
+  text-align: left;
+}
+
+#register_form label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  position: relative;
+}
+
+#register_form label .label {
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: #f3f3f3;
+  width: 150px;
+}
+
+#register_form  input[type="text"], #register_form select {
+  display: block;
+  width: 300px;
+  height: 50px;
+  /*background: rgb(87, 40, 228);*/
+  background: rgb(142, 16, 214);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+}
+
+#register_form input[type="text"]:focus {
+  background: rgb(71, 22, 218);
+}
+
+#register_form input[type="text"]:focus ~ .label, #register_form input[type="text"]:valid ~ .label, #register_form select:focus ~ .label, #register_form select:valid ~ .label {
+  -webkit-transform: translateY(-40px) translateX(-20px) scale(.8);
+          transform: translateY(-40px) translateX(-20px) scale(.8);
+}
+
+#register_form  input[type="text"]::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+#register_form  input[type="text"]:-ms-input-placeholder {
+  opacity: 0;
+}
+
+#register_form  input[type="text"]::-ms-input-placeholder {
+  opacity: 0;
+}
+
+#register_form  input[type="text"]::placeholder {
+  opacity: 0;
+}
+
+
+#register_form  input[type="submit"]{
+  display: block;
+  background: linear-gradient(60deg, rgb(142, 16, 214), rgb(85,29,252), rgb(117,121,255));
+  padding: 10px 19px;
+  text-align: center;
+  border: none;
+  margin: 0 auto;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+          box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  color: white;
+  cursor: pointer;
+  margin-top: 45px;
+  -webkit-transition: -webkit-transform .3s ease-in-out, -webkit-box-shadow .5s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out, -webkit-box-shadow .5s ease-in-out;
+  transition: transform .3s ease-in-out, box-shadow .5s ease-in-out;
+  transition: transform .3s ease-in-out, box-shadow .5s ease-in-out, -webkit-transform .3s ease-in-out, -webkit-box-shadow .5s ease-in-out;
+}
+
+#register_form  input[type="submit"]:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/* End: Register Section */
+
+
 /*  Start: Map Section */
 
 #gmap {
