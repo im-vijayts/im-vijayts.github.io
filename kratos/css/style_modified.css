@@ -25,7 +25,15 @@ body{
 }
 
 .event_title_heading{
-  font-family: "flipside";
+  font-family: "flipside", "quicksand", sans-serif;
+}
+
+#events_text{
+    background: linear-gradient(60deg, rgb(145,29,240), rgb(240,29,145),  rgb(145,29,240));
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  font-weight: 800;
 }
 
 .events_item:last-of-type {
@@ -91,7 +99,6 @@ body{
 }
 
 .event_title_heading {
-  
 }
 
 .event_section_body {
@@ -209,7 +216,8 @@ body{
   color: white;
   width: 100%;
   /*background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6)),url("../images/technical_card_bg.jpg");*/
-  background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6));
+  /*background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6));*/
+  background: linear-gradient(60deg, rgba(101, 96, 255, 0.6), rgba(181,96,255, 0.6),  rgba(96,244,255,0.6));
   background-size: cover;
   position: relative;
   
@@ -272,7 +280,8 @@ body{
   color: white;
   width: 100%;
   /*background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6)),url("../images/non_technical_card_bg.jpg");*/
-  background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6));
+  /*background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6));*/
+  background: linear-gradient(60deg, rgba(101, 96, 255, 0.6), rgba(181,96,255, 0.6),  rgba(96,244,255,0.6));
   background-size: cover;
   position: relative;
   
@@ -335,7 +344,8 @@ body{
   color: white;
   width: 100%;
   /*background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6)),url("../images/technical_card_bg.jpg");*/
-  background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6));
+  /*background: linear-gradient(60deg, rgba(171, 86, 207,0.6), rgba(85,29,252,0.6), rgba(117,121,255,0.6));*/
+  background: linear-gradient(60deg, rgba(101, 96, 255, 0.6), rgba(181,96,255, 0.6),  rgba(96,244,255,0.6));
   background-size: cover;
   position: relative;
 }
