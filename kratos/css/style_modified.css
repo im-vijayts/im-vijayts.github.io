@@ -198,6 +198,14 @@ body{
 
 /* End: Events Section */
 
+/*Start: Body wrapper section*/
+
+#body_wrapper{
+  /*background: linear-gradient(60deg, rgba(101, 96, 255, 0.6), rgba(181,96,255, 0.6),  rgba(96,244,255,0.6));*/
+}
+
+/*End: Body wrapper section*/
+
 /* Start: Technical Section */
 #technical {
   width: 100%;
@@ -224,37 +232,37 @@ body{
   
 }
 
-#technical_wrapper .pure-u-1:nth-child(1) .event_item {
+#technical_wrapper .pure-u-1-2:nth-child(1) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/technical/paper-presentation.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/technical/paper-presentation.jpg") no-repeat;
   background-size: cover;
 }
 
-#technical_wrapper .pure-u-1:nth-child(2) .event_item {
+#technical_wrapper .pure-u-1-2:nth-child(2) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/technical/clash-of-codes.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/technical/clash-of-codes.jpg") no-repeat;
   background-size: cover;
 }
 
-#technical_wrapper .pure-u-1:nth-child(3) .event_item {
+#technical_wrapper .pure-u-1-2:nth-child(3) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/technical/treasure-hunt.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/technical/treasure-hunt.jpg") no-repeat;
   background-size: cover;
 }
 
-#technical_wrapper .pure-u-1:nth-child(4) .event_item {
+#technical_wrapper .pure-u-1-2:nth-child(4) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/technical/deadlocked-db.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/technical/deadlocked-db.jpg") no-repeat;
   background-size: cover;
 }
 
-#technical_wrapper .pure-u-1:nth-child(5) .event_item {
+#technical_wrapper .pure-u-1-2:nth-child(5) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/technical/google-it.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/technical/google-it.jpg") no-repeat;
   background-size: cover;
 }
 
-#technical_wrapper .pure-u-1:nth-child(6) .event_item {
+#technical_wrapper .pure-u-1-2:nth-child(6) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/technical/gadget-and-gizmos.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/technical/gadget-and-gizmos.jpg") no-repeat;
   background-size: cover;
@@ -289,37 +297,37 @@ body{
   
 }
 
-#non_technical_wrapper .pure-u-1:nth-child(1) .event_item {
+#non_technical_wrapper .pure-u-1-2:nth-child(1) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/non-technical/murder-in-multiplayer.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/non-technical/murder-in-multiplayer.jpg") no-repeat;
   background-size: cover;
 }
 
-#non_technical_wrapper .pure-u-1:nth-child(2) .event_item {
+#non_technical_wrapper .pure-u-1-2:nth-child(2) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/non-technical/prison-break.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/non-technical/prison-break.jpg") no-repeat;
   background-size: cover;
 }
 
-#non_technical_wrapper .pure-u-1:nth-child(3) .event_item {
+#non_technical_wrapper .pure-u-1-2:nth-child(3) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/non-technical/pitch-impossible.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/non-technical/pitch-impossible.jpg") no-repeat;
   background-size: cover;
 }
 
-#non_technical_wrapper .pure-u-1:nth-child(4) .event_item {
+#non_technical_wrapper .pure-u-1-2:nth-child(4) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/non-technical/comic-quiz.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/non-technical/comic-quiz.jpg") no-repeat;
   background-size: cover;
 }
 
-#non_technical_wrapper .pure-u-1:nth-child(5) .event_item {
+#non_technical_wrapper .pure-u-1-2:nth-child(5) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/non-technical/futsal-and-box-cricket.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/non-technical/futsal-and-box-cricket.jpg") no-repeat;
   background-size: cover;
 }
 
-#non_technical_wrapper .pure-u-1:nth-child(6) .event_item {
+#non_technical_wrapper .pure-u-1-2:nth-child(6) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/non-technical/gaming.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/non-technical/gaming.jpg") no-repeat;
   background-size: cover;
@@ -340,7 +348,7 @@ body{
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 #online_wrapper {
@@ -353,31 +361,31 @@ body{
   position: relative;
 }
 
-#online_wrapper .pure-u-1:nth-child(1) .event_item {
+#online_wrapper .pure-u-1-2:nth-child(1) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/online/signature-meme.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/online/signature-meme.jpg") no-repeat;
   background-size: cover;
 }
 
-#online_wrapper .pure-u-1:nth-child(2) .event_item {
+#online_wrapper .pure-u-1-2:nth-child(2) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/online/picturesque.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/online/picturesque.jpg") no-repeat;
   background-size: cover;
 }
 
-#online_wrapper .pure-u-1:nth-child(3) .event_item {
+#online_wrapper .pure-u-1-2:nth-child(3) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/online/lights-camera-action.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/online/lights-camera-action.jpg") no-repeat;
   background-size: cover;
 }
 
-#online_wrapper .pure-u-1:nth-child(4) .event_item {
+#online_wrapper .pure-u-1-2:nth-child(4) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/online/drama-maxx.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/online/drama-maxx.jpg") no-repeat;
   background-size: cover;
 }
 
-#online_wrapper .pure-u-1:nth-child(5) .event_item {
+#online_wrapper .pure-u-1-2:nth-child(5) .event_item {
   background: -webkit-gradient(linear, left top, right top, from(#551DFC), to(rgba(0,0,0,0.3))), url("../images/online/gamify-kratos.jpg") no-repeat;
   background: linear-gradient(to right, #551DFC, rgba(0,0,0,0.3)), url("../images/online/gamify-kratos.jpg") no-repeat;
   background-size: cover;
@@ -600,14 +608,18 @@ body{
 
 @media screen and (max-width: 767px) {
   .event_item {
-    height: 300px;
+    height: 160px;
+    width: 160px;
     margin: 15px auto;
     text-align: right;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 300px;
+  }
+
+  .event_item p{
+    font-size: 0.7rem;
   }
 
   .last_event {
