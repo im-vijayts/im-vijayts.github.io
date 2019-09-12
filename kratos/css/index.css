@@ -777,6 +777,12 @@ body{
   .timer{
     font-size: 1.5rem;
   }
+  .card h2{
+    font-size: 1.2rem;
+  }
+  .card p{
+    font-size: 0.7rem;
+  }
 }
 
 @media (min-width:600px) { 
