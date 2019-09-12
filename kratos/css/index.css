@@ -557,6 +557,7 @@ body{
 }
 
 .card{
+  font-family: "quicksand", sans-serif;
 	color: white;
 	background: transparent;
 	text-align: center;
