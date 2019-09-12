@@ -319,8 +319,25 @@ body{
 
 /* Start: Register Section */
 
+#register:after {
+  content: "Registrations will open soon";
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 25%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
 #register {
   width: 100%;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,6 +475,7 @@ body{
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
 /* End: Register Section */
 
 

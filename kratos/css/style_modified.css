@@ -597,7 +597,7 @@ body{
 
 @media screen and (max-width: 767px) {
   .event_item {
-    height: 110px;
+    height: 300px;
     margin: 15px auto;
     text-align: right;
     -webkit-box-orient: horizontal;
@@ -639,7 +639,7 @@ body{
 
 @media screen and (max-width: 479px) {
   .event_item{
-    border-radius: 15px;
+    border-radius: 50%;
   }
 
   .events_item_content {
