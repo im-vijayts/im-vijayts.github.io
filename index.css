@@ -27,6 +27,7 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 1.5rem;
+	overflow-x: hidden;
 }
 
 .body_wrapper{
