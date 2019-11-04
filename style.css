@@ -1,0 +1,100 @@
+/* COMMON */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+
+/* MAIN PAGE */
+
+main {
+    background: linear-gradient(to bottom left, #DF678C, #3D155F);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-card {
+    background: white;
+    height: 60vh;
+    width: 50vh;
+    border-radius: 7%;
+    display: grid;
+    grid-template-rows: 10% 100px 5% 1fr 1fr 5% 1fr 5% 1fr;
+    grid-template-areas: "." "picture" "." "name" "desc" "." "menu" "." "contact";
+    justify-items: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.2);
+}
+
+.img-wrapper {
+    width: 100px;
+    height: 100px;
+    grid-area: picture;
+}
+
+.img-wrapper img {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#name {
+    grid-area: name;
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#desc {
+    grid-row: desc;
+}
+
+#desc h2 {
+    font-weight: 300;
+}
+
+.menu {
+    grid-row: menu;
+    display: flex;
+}
+
+.menu>a>p {
+    padding: 5px;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: gray;
+}
+
+.contact {
+    grid-row: contact;
+    display: flex;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact>p {
+    padding: 2vw;
+}
