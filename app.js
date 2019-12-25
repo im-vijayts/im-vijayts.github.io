@@ -1,6 +1,12 @@
 // INFO FOR PROJECTS PAGE 
 function init() {
     let projects = [{
+            project_name: "Excel to Database converter",
+            tools: "Python, Excel, SQLite3, Tkinter",
+            desc: "A python program that converts excel files into database files. This program reads the data to be inserted from the excel file. After reading the data, it creates the table in the database and inserts the elements into the database.",
+            link: "https://github.com/im-vijayts/excel-to-database",
+        },
+        {
             project_name: "Auto App Runner",
             tools: "Python, Tkinter, GUI",
             desc: "This is a GUI using Tkinter module of Python language. It stores the applications which the user wants to open and enables the user to launch those applications.",
@@ -29,7 +35,7 @@ function init() {
             tools: "HTML, CSS, JS",
             desc: "A template portfolio website designed in Adobe XD and developed using HTML, CSS and JS.",
             link: "https://github.com/im-vijayts/minimalistic-portfolio"
-        }
+        },
     ];
 
     const main = document.querySelector(".main");
