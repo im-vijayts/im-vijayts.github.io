@@ -10,11 +10,11 @@
 
 @font-face {
     font-family: "Montserrat";
-    src: url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+    src: url("./fonts/Montserrat-Medium.ttf");
 }
 
 body {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -59,7 +59,7 @@ main {
 
 #name {
     grid-area: name;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
 }

@@ -10,11 +10,11 @@
 
 @font-face {
     font-family: "Montserrat";
-    src: url("https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap");
+    src: url("./fonts/Montserrat-Regular.ttf");
 }
 
 body {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 
 main {

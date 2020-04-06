@@ -10,11 +10,16 @@
 
 @font-face {
     font-family: "Montserrat";
-    src: url("https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap");
+    src: url("./fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("./fonts/Montserrat-Light.ttf");
 }
 
 body {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 
 main {
@@ -79,6 +84,7 @@ main {
 
 .desc {
     grid-area: tools;
+    font-family: "Montserrat-Light", sans-serif;
 }
 
 .desc>p {

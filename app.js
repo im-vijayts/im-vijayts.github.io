@@ -31,10 +31,10 @@ function init() {
             link: "https://github.com/im-vijayts/im-vijayts.github.io"
         },
         {
-            project_name: "Portfolio Template",
-            tools: "HTML, CSS, JS",
-            desc: "A template portfolio website designed in Adobe XD and developed using HTML, CSS and JS.",
-            link: "https://github.com/im-vijayts/minimalistic-portfolio"
+            project_name: "Beat Maker App",
+            tools: "Java Swing (GUI), Backend Java Libraries",
+            desc: "A cross-platform beat maker app implemented using java swing API.",
+            link: "https://github.com/im-vijayts/beat-maker-app"
         },
     ];
 
