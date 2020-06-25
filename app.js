@@ -4,37 +4,37 @@ function init() {
             project_name: "Excel to Database converter",
             tools: "Python, Excel, SQLite3, Tkinter",
             desc: "A python program that converts excel files into database files. This program reads the data to be inserted from the excel file. After reading the data, it creates the table in the database and inserts the elements into the database.",
-            link: "https://github.com/im-vijayts/excel-to-database",
+            link: "https://github.com/veejayts/excel-to-database",
         },
         {
             project_name: "Auto App Runner",
             tools: "Python, Tkinter, GUI",
             desc: "This is a GUI using Tkinter module of Python language. It stores the applications which the user wants to open and enables the user to launch those applications.",
-            link: "https://github.com/im-vijayts/run-apps"
+            link: "https://github.com/veejayts/run-apps"
         },
         {
             project_name: "SEO Tool",
             tools: "Python, Web Scraping, Excel",
             desc: "This is a program that counts the frequency of words in a particular web page. It utilizes webcrawling and working with excel sheets.",
-            link: "https://github.com/im-vijayts/SEO-tool"
+            link: "https://github.com/veejayts/SEO-tool"
         },
         {
             project_name: "Insta Downloader",
             tools: "Python, Web Scraping, File I/O",
             desc: "A non-API python script that will download images and videos from public instagram profiles. This is completely based on webcrawling.",
-            link: "https://github.com/im-vijayts/instaDownloader"
+            link: "https://github.com/veejayts/instaDownloader"
         },
         {
             project_name: "Portfolio",
             tools: "HTML, CSS, JS",
             desc: "A portfolio website for myself designed in Adobe XD and developed using HTML, CSS and JS.",
-            link: "https://github.com/im-vijayts/im-vijayts.github.io"
+            link: "https://github.com/veejayts/veejayts.github.io"
         },
         {
             project_name: "Beat Maker App",
             tools: "Java Swing (GUI), Backend Java Libraries",
             desc: "A cross-platform beat maker app implemented using java swing API.",
-            link: "https://github.com/im-vijayts/beat-maker-app"
+            link: "https://github.com/veejayts/beat-maker-app"
         },
     ];
 
