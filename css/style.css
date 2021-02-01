@@ -1,0 +1,60 @@
+@font-face {
+    font-family: PressStart2P;
+    src: url(../fonts/PressStart2P-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: PressStart2P, monospace, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #212529;
+    color: white;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.smaller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.about .main {
+    padding: 10%;
+}
+
+.list {
+    list-style: none;
+}
+
+.projects #get-padding-top {
+    padding: 20px 0;
+}
+
+.projects .main {
+    padding: 10%;
+}
